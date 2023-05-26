@@ -5,7 +5,7 @@ import java.util.LinkedHashMap;
 
 
 /**
- * this class is for try out codes
+ * this class is for try out LinkedHashMap
  * @author Shehani Fernando
  */
 public class LinkedHashMapCollection {

@@ -5,7 +5,7 @@ import java.util.PriorityQueue;
 
 
 /**
- * this class is for try out codes
+ * this class is for try out with Comparator class to change the order of saving elements
  * @author Shehani Fernando
  */
 public class PriorityQueueWithComparatorCollection {
@@ -37,7 +37,7 @@ public class PriorityQueueWithComparatorCollection {
         //once after service received from shop behaviour
         queue.poll();
         System.out.println("once after service received from shop queue contains : "+queue);
-        //end
+
 
     }
 }

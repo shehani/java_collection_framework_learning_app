@@ -6,7 +6,7 @@ import java.util.TreeMap;
 
 
 /**
- * this class is for try out codes
+ * this class is for try out TreeMap
  * @author Shehani Fernando
  */
 public class TreeMapCollection {

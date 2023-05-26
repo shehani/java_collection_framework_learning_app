@@ -6,7 +6,7 @@ import java.util.Vector;
 
 
 /**
- * this class is for try out codes
+ * this class is for try out Stack
  * @author Shehani Fernando
  */
 public class StackCollection {

@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 
 /**
- * this class is for try out codes
+ * this class is for try out HashMap
  * @author Shehani Fernando
  */
 public class HashMapCollection {
@@ -15,7 +15,7 @@ public class HashMapCollection {
      * @param args for getting usr input
      */
     public static void main(String[] args) {
-        //int[] num = {1,2,3};
+
         HashMap<String,String> formPayload = new HashMap();
         formPayload.put("userId","She12");
         formPayload.put("courseId","cm12");

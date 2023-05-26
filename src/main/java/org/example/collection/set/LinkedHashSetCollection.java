@@ -2,10 +2,11 @@ package org.example.collection.set;
 
 import java.util.HashSet;
 import java.util.LinkedHashSet;
+import java.util.Set;
 
 
 /**
- * this class is for try out codes
+ * this class is for try out LinkedHashSet
  * @author Shehani Fernando
  */
 public class LinkedHashSetCollection {
@@ -16,17 +17,17 @@ public class LinkedHashSetCollection {
      * @param args for getting usr input
      */
     public static void main(String[] args) {
-        HashSet<String> hashList = new HashSet<>();
+        Set<String> linkedHashList = new LinkedHashSet<>();
 
-        hashList.add("Hello");
-        hashList.add("JAVA");
-        hashList.add("WORLD");
-        hashList.add("I Love you");
-        System.out.println(hashList);
+        linkedHashList.add("Hello");
+        linkedHashList.add("JAVA");
+        linkedHashList.add("WORLD");
+        linkedHashList.add("I Love you");
+        System.out.println(linkedHashList);
 
-        LinkedHashSet<String> linkedHashSet = new LinkedHashSet<>(hashList);
-        linkedHashSet.add("JAVA");//this is not adding due to a duplicated object
-        System.out.println(linkedHashSet);
+        linkedHashList.add("JAVA");//this is not adding due to a duplicated object
+
+        System.out.println(linkedHashList);
     }
 
 

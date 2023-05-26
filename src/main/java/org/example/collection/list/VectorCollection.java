@@ -5,19 +5,18 @@ import java.util.Vector;
 
 
 /**
- * this class is for try out codes
+ * this class is for try out Vector
  * @author Shehani Fernando
  */
 public class VectorCollection {
-    private static int $;
-    private static String _$;
+
 
     /**
      * This method is the main method which will be the runtime entry point for the program
      * @param args for getting usr input
      */
     public static void main(String[] args) {
-        //int[] num = {1,2,3};
+
         Vector<Integer> numList = new Vector<>();
         numList.add(1);
         numList.add(2);

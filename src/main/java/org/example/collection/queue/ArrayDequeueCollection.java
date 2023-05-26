@@ -5,7 +5,7 @@ import java.util.PriorityQueue;
 
 
 /**
- * this class is for try out codes
+ * this class is for try out ArrayDequeue
  * @author Shehani Fernando
  */
 public class ArrayDequeueCollection {
@@ -21,6 +21,7 @@ public class ArrayDequeueCollection {
         queue.add("Shehani");
         queue.add("Shehan");
         queue.add("Malshani");
+
 
         System.out.println(queue);
 

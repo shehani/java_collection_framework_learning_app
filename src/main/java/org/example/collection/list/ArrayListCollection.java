@@ -4,23 +4,21 @@ import java.util.ArrayList;
 
 
 /**
- * this class is for try out codes
+ * this class is for try out ArrayList
  * @author Shehani Fernando
  */
 public class ArrayListCollection {
-    private static int $;
-    private static String _$;
 
     /**
      * This method is the main method which will be the runtime entry point for the program
      * @param args for getting usr input
      */
     public static void main(String[] args) {
-        //int[] num = {1,2,3};
         ArrayList<Integer> numList = new ArrayList<>();
         numList.add(1);
         numList.add(2);
         numList.add(3);
+
         System.out.println(numList);
         for(int i : numList){
             System.out.println(i);
@@ -34,6 +32,7 @@ public class ArrayListCollection {
         }
 
         System.out.println("size of the List is "+numList.size());
+
         //take decision based on collection is having element or not.
         if(!numList.contains(1)){
             numList.add(1);

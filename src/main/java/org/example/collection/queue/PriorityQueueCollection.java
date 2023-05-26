@@ -5,12 +5,10 @@ import java.util.PriorityQueue;
 
 
 /**
- * this class is for try out codes
+ * this class is for try out PriorityQueue
  * @author Shehani Fernando
  */
 public class PriorityQueueCollection {
-    private static int $;
-    private static String _$;
 
     /**
      * This method is the main method which will be the runtime entry point for the program

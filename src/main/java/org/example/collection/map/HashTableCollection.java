@@ -5,7 +5,7 @@ import java.util.Hashtable;
 
 
 /**
- * this class is for try out codes
+ * this class is for try out HashTable
  * @author Shehani Fernando
  */
 public class HashTableCollection {
